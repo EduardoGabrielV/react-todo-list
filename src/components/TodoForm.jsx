@@ -17,8 +17,13 @@ const handleSubmit = (e) => {
     <div className="todo-form">
         <h2>Criar tarefa:</h2>
         <form onSubmit={handleSubmit}>
-            <input value={value} onChange={(e) => setValue(e.target.value)} type="text" placeholder='Digite o título'/>
-            <select value={category} onChange={(e) => setCategory(e.target.value)}>
+            <input value={value} onChange={(e) => setValue(e.target.value)} 
+            type="text" 
+            placeholder='Digite o título'
+            maxLength={40}
+            required
+            />
+            <select required value={category} onChange={(e) => setCategory(e.target.value)}>
                 <option value="">Selecione uma categoria</option>
                 <option value="Trabalho">Trabalho</option>
                 <option value="Pessoal">Pessoal</option>
