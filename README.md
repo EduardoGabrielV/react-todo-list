@@ -1,6 +1,6 @@
 📝 To-Do List
 Uma aplicação simples de lista de tarefas (To-Do List) desenvolvida com React e Vite.
-Permite adicionar, marcar como concluídas e remover tarefas de forma rápida e prática.
+Permite adicionar, marcar como concluídas e remover tarefas de forma rápida e prática (CRUD atualizando o component).
 
 🚀 Tecnologias
 React
